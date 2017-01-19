@@ -30,6 +30,8 @@ if (! ctype_digit((string) $count)) {
     exit;
 }
 
+$lipsum->word(1);
+
 $arg = ucfirst($lipsum->{$type}($count));
 
 $noun = $count > 1 ? $type : substr($type, 0, -1);
