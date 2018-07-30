@@ -16,7 +16,6 @@ if ($count === '') {
         case 'words': $count = 7; break;
         case 'sentences': $count = 3; break;
         case 'paragraphs': $count = 3; break;
-        // TODO: lists
     }
 }
 
