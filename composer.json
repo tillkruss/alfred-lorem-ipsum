@@ -1,4 +1,15 @@
 {
+    "name": "tillkruss/alfred-lorem-ipsum",
+    "description": "An ultra-fast Lorem Ipsum workflow for Alfred 3",
+    "version": "0.2.0",
+    "type": "library",
+    "keywords": ["alfred", "alfred-workflow", "lorem-ipsum"],
+    "homepage": "https://till.im",
+    "support": {
+        "source": "https://github.com/tillkruss/alfred-lorem-ipsum",
+        "issues": "https://github.com/tillkruss/alfred-lorem-ipsum/issues"
+    },
+    "license": "MIT",
     "require": {
         "joetannenbaum/alfred-workflow": "^0.1.0",
         "joshtronic/php-loremipsum": "^1.0"
