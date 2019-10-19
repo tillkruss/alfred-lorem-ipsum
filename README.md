@@ -1,6 +1,6 @@
 # Lorem Ipsum Workflow for Alfred
 
-An ultra-fast Lorem Ipsum workflow for Alfred 2.
+An ultra-fast Lorem Ipsum workflow for Alfred 3.
 
 ![Screenshot](screenshot.png)
 
