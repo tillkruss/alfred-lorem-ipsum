@@ -355,7 +355,7 @@ Instead of typing you may of course use Alfred's hotkeys to navigate faster.</st
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.2.0</string>
+	<string>0.2.1</string>
 	<key>webaddress</key>
 	<string>https://till.im</string>
 </dict>
