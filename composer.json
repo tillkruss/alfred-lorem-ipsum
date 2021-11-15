@@ -1,7 +1,7 @@
 {
     "name": "tillkruss/alfred-lorem-ipsum",
-    "description": "An ultra-fast Lorem Ipsum workflow for Alfred 3",
-    "version": "0.2.0",
+    "description": "An ultra-fast Lorem Ipsum workflow for Alfred 4",
+    "version": "0.2.1",
     "type": "library",
     "keywords": ["alfred", "alfred-workflow", "lorem-ipsum"],
     "homepage": "https://till.im",

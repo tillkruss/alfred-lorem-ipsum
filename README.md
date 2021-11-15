@@ -1,12 +1,12 @@
 # Lorem Ipsum Workflow for Alfred
 
-An ultra-fast Lorem Ipsum workflow for Alfred 3.
+An ultra-fast Lorem Ipsum workflow for Alfred 4.
 
 ![Screenshot](screenshot.png)
 
 ## Installation
 
-1. [Download the latest version](https://github.com/tillkruss/alfred-lorem-ipsum/releases/download/v0.2.0/Lorem.Ipsum.alfredworkflow)
+1. [Download the latest version](https://github.com/tillkruss/alfred-lorem-ipsum/releases/download/v0.2.1/Lorem.Ipsum.alfredworkflow)
 2. Install the workflow by double-clicking the `.alfredworkflow` file
 3. You can add the workflow to a category, then click "Import" to finish importing. You'll now see the workflow listed in the left sidebar of your Workflows preferences pane.
 
