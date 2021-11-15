@@ -298,7 +298,15 @@ fi</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>```
+lorem words &lt;number&gt;
+lorem sentences &lt;number&gt;
+lorem paragraphs &lt;number&gt;
+```
+
+Just type `lorem` followed by either `words`, `sentences` or `paragraphs` and optionally a number.
+
+Instead of typing you may of course use Alfred's hotkeys to navigate faster.</string>
 	<key>uidata</key>
 	<dict>
 		<key>0FA1C23A-16EB-4A9D-B80B-E0A5B0962694</key>
