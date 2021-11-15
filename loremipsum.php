@@ -29,6 +29,8 @@ if (! ctype_digit((string) $count)) {
     exit;
 }
 
+$lipsum->word(1); // avoid starting with `Lorem`
+
 $arg = ucfirst($lipsum->{$type}($count));
 
 $noun = $count > 1 ? $type : substr($type, 0, -1);
