@@ -90,12 +90,14 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>escaping</key>
-				<integer>127</integer>
+				<integer>102</integer>
 				<key>keyword</key>
 				<string>lorem words</string>
 				<key>queuedelaycustom</key>
@@ -109,7 +111,13 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>php loremipsum.php "words" "{query}"</string>
+				<string>if [ -f "/opt/homebrew/bin/php" ]; then
+    /opt/homebrew/bin/php loremipsum.php "words" "{query}"
+elif [ -f "/usr/local/bin/php" ]; then
+    /usr/local/bin/php loremipsum.php "words" "{query}"
+elif [ -f "/usr/bin/php" ]; then
+    /usr/bin/php loremipsum.php "words" "{query}"
+fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -128,7 +136,7 @@
 			<key>uid</key>
 			<string>7B86D057-DA8E-4302-AF17-83B889B48EE2</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -137,6 +145,8 @@
 				<true/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
 				<key>transient</key>
 				<false/>
 			</dict>
@@ -145,7 +155,7 @@
 			<key>uid</key>
 			<string>620E35F8-FBBB-4FB3-9C4A-0903F85E9988</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -154,6 +164,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -173,7 +185,13 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>php loremipsum.php "sentences" "{query}"</string>
+				<string>if [ -f "/opt/homebrew/bin/php" ]; then
+    /opt/homebrew/bin/php loremipsum.php "sentences" "{query}"
+elif [ -f "/usr/local/bin/php" ]; then
+    /usr/local/bin/php loremipsum.php "sentences" "{query}"
+elif [ -f "/usr/bin/php" ]; then
+    /usr/bin/php loremipsum.php "sentences" "{query}"
+fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -192,7 +210,7 @@
 			<key>uid</key>
 			<string>F70E1C24-2A8B-4579-A302-751D2B26DA87</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>type</key>
@@ -230,6 +248,8 @@
 				<false/>
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -249,7 +269,13 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>php loremipsum.php "paragraphs" "{query}"</string>
+				<string>if [ -f "/opt/homebrew/bin/php" ]; then
+    /opt/homebrew/bin/php loremipsum.php "paragraphs" "{query}"
+elif [ -f "/usr/local/bin/php" ]; then
+    /usr/local/bin/php loremipsum.php "paragraphs" "{query}"
+elif [ -f "/usr/bin/php" ]; then
+    /usr/bin/php loremipsum.php "paragraphs" "{query}"
+fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -268,7 +294,7 @@
 			<key>uid</key>
 			<string>E5E7D28A-E7DF-473B-9123-1D31D6B9F20E</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
@@ -318,6 +344,8 @@
 			<integer>290</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>0.2.0</string>
 	<key>webaddress</key>
