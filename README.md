@@ -4,6 +4,10 @@ An ultra-fast Lorem Ipsum workflow for Alfred 4.
 
 ![Screenshot](screenshot.png)
 
+## Requirements
+
+- PHP 5.6 or newer
+
 ## Installation
 
 1. [Download the latest version](https://github.com/tillkruss/alfred-lorem-ipsum/releases/download/v0.2.1/Lorem.Ipsum.alfredworkflow)
