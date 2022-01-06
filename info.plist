@@ -117,6 +117,10 @@ elif [ -f "/usr/local/bin/php" ]; then
     /usr/local/bin/php loremipsum.php "words" "{query}"
 elif [ -f "/usr/bin/php" ]; then
     /usr/bin/php loremipsum.php "words" "{query}"
+elif [ -f "$(which php)" ]; then
+    $(which php) loremipsum.php "words" "{query}"
+else
+    php loremipsum.php "words" "{query}"
 fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -191,6 +195,10 @@ elif [ -f "/usr/local/bin/php" ]; then
     /usr/local/bin/php loremipsum.php "sentences" "{query}"
 elif [ -f "/usr/bin/php" ]; then
     /usr/bin/php loremipsum.php "sentences" "{query}"
+elif [ -f "$(which php)" ]; then
+    $(which php) loremipsum.php "sentences" "{query}"
+else
+    php loremipsum.php "sentences" "{query}"
 fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
@@ -275,6 +283,10 @@ elif [ -f "/usr/local/bin/php" ]; then
     /usr/local/bin/php loremipsum.php "paragraphs" "{query}"
 elif [ -f "/usr/bin/php" ]; then
     /usr/bin/php loremipsum.php "paragraphs" "{query}"
+elif [ -f "$(which php)" ]; then
+    $(which php) loremipsum.php "paragraphs" "{query}"
+else
+    php loremipsum.php "paragraphs" "{query}"
 fi</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
