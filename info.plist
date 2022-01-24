@@ -111,13 +111,13 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>if [ -f "/opt/homebrew/bin/php" ]; then
+				<string>if [ -x "/opt/homebrew/bin/php" ]; then
     /opt/homebrew/bin/php loremipsum.php "words" "{query}"
-elif [ -f "/usr/local/bin/php" ]; then
+elif [ -x "/usr/local/bin/php" ]; then
     /usr/local/bin/php loremipsum.php "words" "{query}"
-elif [ -f "/usr/bin/php" ]; then
+elif [ -x "/usr/bin/php" ]; then
     /usr/bin/php loremipsum.php "words" "{query}"
-elif [ -f "$(which php)" ]; then
+elif [ -x "$(which php)" ]; then
     $(which php) loremipsum.php "words" "{query}"
 else
     php loremipsum.php "words" "{query}"
@@ -189,13 +189,13 @@ fi</string>
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>if [ -f "/opt/homebrew/bin/php" ]; then
+				<string>if [ -x "/opt/homebrew/bin/php" ]; then
     /opt/homebrew/bin/php loremipsum.php "sentences" "{query}"
-elif [ -f "/usr/local/bin/php" ]; then
+elif [ -x "/usr/local/bin/php" ]; then
     /usr/local/bin/php loremipsum.php "sentences" "{query}"
-elif [ -f "/usr/bin/php" ]; then
+elif [ -x "/usr/bin/php" ]; then
     /usr/bin/php loremipsum.php "sentences" "{query}"
-elif [ -f "$(which php)" ]; then
+elif [ -x "$(which php)" ]; then
     $(which php) loremipsum.php "sentences" "{query}"
 else
     php loremipsum.php "sentences" "{query}"
@@ -277,13 +277,13 @@ fi</string>
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>if [ -f "/opt/homebrew/bin/php" ]; then
+				<string>if [ -x "/opt/homebrew/bin/php" ]; then
     /opt/homebrew/bin/php loremipsum.php "paragraphs" "{query}"
-elif [ -f "/usr/local/bin/php" ]; then
+elif [ -x "/usr/local/bin/php" ]; then
     /usr/local/bin/php loremipsum.php "paragraphs" "{query}"
-elif [ -f "/usr/bin/php" ]; then
+elif [ -x "/usr/bin/php" ]; then
     /usr/bin/php loremipsum.php "paragraphs" "{query}"
-elif [ -f "$(which php)" ]; then
+elif [ -x "$(which php)" ]; then
     $(which php) loremipsum.php "paragraphs" "{query}"
 else
     php loremipsum.php "paragraphs" "{query}"
@@ -367,7 +367,7 @@ Instead of typing you may of course use Alfred's hotkeys to navigate faster.</st
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string>0.2.1</string>
+	<string>0.2.2</string>
 	<key>webaddress</key>
 	<string>https://till.im</string>
 </dict>
